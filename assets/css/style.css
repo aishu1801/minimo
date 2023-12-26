@@ -1,0 +1,239 @@
+/* headervsection css */
+
+
+.header {
+    /* background-color: #fcdb00; */
+    padding: 55px 0 100px;
+}
+
+.minimo {
+    display: inline-block;
+}
+
+.navbar ul {
+    display: inline-block;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 31px;
+}
+
+.navbar li a {
+    padding: 0px 31px;
+    color: #626262;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    height: 29.4px;
+    line-height: 29.4px;
+
+    /* background-color: aquamarine;*/
+
+}
+
+.container1 img {
+    width: 100%;
+}
+
+.homepage .container1 .para {
+    color: #626262;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.homepage .lightPara {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #b4ad9e;
+    text-transform: uppercase;
+
+}
+
+.homepage .para2 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+
+}
+
+/* 
+.Img1 {
+    height: 280px;
+
+} */
+
+.leftPost {
+    padding-right: 25px;
+}
+
+.rightPost {
+    padding-left: 25px;
+}
+
+.midSection {
+    background-color: #f0f0f0;
+
+    text-align: center;
+    /* padding-top: 70px;
+    padding-bottom: 70px; */
+    padding: 70px 0;
+}
+
+.midSection p {
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.midSection form {
+    margin: 0 auto;
+    height: 38px;
+    width: 35%;
+    border: none;
+    /* padding: 0px 15px; */
+    /* background-color: inherit; */
+    border-bottom: 1px solid #000;
+    /* border-bottom: 1px solid rebeccapurple; */
+}
+
+.email {
+    /* height: 40px;
+    width: 25%; */
+    /* outline: none; */
+    border: none;
+    padding: 0px 15px;
+    background-color: inherit;
+    /* border-bottom: 1px solid #000; */
+}
+
+/* .form-group .email {
+    width: 35%;
+    height: 35px;
+    font-size: 14px;
+    color: #626262;
+    outline: none;
+    border: none;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #000000;
+} */
+
+
+
+.email-button {
+    border: none;
+    width: 32px;
+    height: 17px;
+    background-image: url(../images/sendIcon.png);
+    transition: all .3s ease-in-out;
+}
+
+.email-button:hover {
+
+    transform: scale(1.4);
+    text-shadow: 3px 3px 6px;
+    cursor: pointer;
+
+
+}
+
+.load-button {
+
+    text-align: center;
+    margin-top: 30px;
+}
+
+.load-button button {
+    cursor: pointer;
+    padding: 15px 25px;
+    color: #626262;
+    font-size: 20px;
+    background-color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.load-button button:hover {
+    background-color: rgb(56, 9, 18);
+    color: #f0f0f0;
+}
+
+
+.brandLinks li {
+    display: inline-block;
+    margin: 40px;
+}
+
+.brandLinks li a {
+    color: #010101;
+}
+
+.brandLinks li a i {
+    font-size: 40px;
+    display: inline-block;
+    transition: all .5s ease-in-out;
+}
+
+.brandLinks li a i:hover {
+    transform: scale(1.5) rotate(10deg);
+    /* box-shadow: 0 0 10px c; */
+    text-shadow: 3px 3px 6px white;
+}
+
+/*#########     inspiration section css     *##############*/
+
+.inspiration {
+    padding: 120px 0 75px;
+}
+
+
+.icon i {
+    font-size: 40px;
+    color: #010101;
+}
+
+.thumbHeading {
+    font-size: 22px;
+    color: #010101;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.thumbPara {
+    color: #898989;
+
+}
+
+.thumbnail {
+    margin-bottom: 85px;
+}
+
+
+/*#########     footer section css     *##############*/
+.footer {
+    background-color: #f0f0f0;
+    padding: 40px;
+
+}
+
+.navbar ul {
+    display: inline-block;
+}
+
+.navbar a {
+    position: relative;
+}
+
+.navbar ul li:hover,
+.navbar ul li:focus,
+.navbar ul li:active {
+    background-color: yellow;
+}
+
+.navbar ul li {
+    display: inline-block;
+    /* padding: 20px; */
+    margin-left: 0px;
+
+}
